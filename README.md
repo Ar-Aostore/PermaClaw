@@ -11,6 +11,20 @@ It combines a minimal Go agent, a rich web UI, a decentralized app store (aoStor
 
 ---
 
+
+## 💖 Support PermaClaw
+
+If you find PermaClaw useful, consider supporting its development:
+
+**Donations**
+- **Arweave**: `6kPw1RIVqycOj40DECUMjnf1CJdEmzCekXhF_tgxcZM`  
+- **Solana** `3BhzthuuMyUnEABZC7cSMsRkNzwXVcceNiyu1g7Uw6Mg`  
+- **Bitcoin**: `bc1qf48t5gcswvfmu6qsjwcrr6gwdxrpqkuu00qzyj`  
+- **Ethereum**: `0x7ECce70Ea00400049447966127B8eECcD6f3612F`  
+
+**Sponsorship**  
+You can sponsor this project on GitHub! Click the **Sponsor** button at the top of the repository
+
 ## ✨ Who is PermaClaw for?
 
 
@@ -94,7 +108,7 @@ bash
 permaclaw spawn-memory --wallet /path/to/wallet.json
 Start chatting! Your memories are now automatically saved to your AO process.
 
-⚙️ Configuration
+###  ⚙️ Configuration
 PermaClaw reads a JSON config file from ~/.permaclaw/config.json (or set via PERMACLAW_CONFIG).
 A minimal example:
 
@@ -118,7 +132,7 @@ PERMACLAW_AOSTORE_PROCESS_ID
 
 PERMACLAW_AOMEM_PROCESS_ID
 
-🛍️ Using the aoStore
+### 🛍️ Using the aoStore
 The Store tab in the web UI displays products from the aoStore process.
 
 Devices are installable skills. Click Install – the skill package is downloaded from Arweave and placed in your workspace under skills/. The agent can then use it immediately.
@@ -129,7 +143,7 @@ Projects show token and protocol information.
 
 Advertisers: You can create campaigns and monitor performance via the UI. Ads appear inside participating products (just buy & monitor).
 
-🧬 Biocomputing Integration (CL1)
+###  🧬 Biocomputing Integration (CL1)
 PermaClaw includes a built‑in client for streaming CL1 neuron activity to your memory process.
 
 Example Python script that sends spike data to PermaClaw’s API:
@@ -168,7 +182,9 @@ bash
 make build        # builds Go binary and embeds frontend
 make run          # builds and runs locally
 make test         # runs all tests
-Contributing
+
+
+## Contributing
 We welcome contributions! Please read CONTRIBUTING.md and our Code of Conduct.
 Areas to contribute:
 
@@ -180,10 +196,10 @@ Improvements to the AO memory client
 
 Documentation and examples
 
-📄 License
+##📄 License
 PermaClaw is licensed under the MIT License. See LICENSE for details.
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 picoclaw – the ultra‑lightweight Go agent
 
 piclaw – the beautiful web‑first orchestrator
@@ -191,4 +207,4 @@ piclaw – the beautiful web‑first orchestrator
 aoStore – the AO app store (add link when available)
 
 Cortical Labs – CL1 neural interface inspiration
-# PermaClaw
+
