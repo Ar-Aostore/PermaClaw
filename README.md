@@ -11,6 +11,21 @@ It combines a minimal Go agent, a rich web UI, a decentralized app store (aoStor
 
 ---
 
+
+## 💖 Support PermaClaw
+
+If you find PermaClaw useful, consider supporting its development:
+
+**Donations**
+- **Arweave**: `6kPw1RIVqycOj40DECUMjnf1CJdEmzCekXhF_tgxcZM`  
+- **Solana** `3BhzthuuMyUnEABZC7cSMsRkNzwXVcceNiyu1g7Uw6Mg`  
+- **Bitcoin**: `bc1qf48t5gcswvfmu6qsjwcrr6gwdxrpqkuu00qzyj`  
+- **Ethereum**: `0x7ECce70Ea00400049447966127B8eECcD6f3612F`  
+
+**Sponsorship**  
+You can sponsor this project on GitHub! Click the **Sponsor** button at the top of the repository
+
+
 ## ✨ Who is PermaClaw for?
 
 
